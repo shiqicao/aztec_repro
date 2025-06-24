@@ -1,0 +1,33 @@
+{
+  "name": "repro",
+  "version": "0.1.0",
+  "type": "module",
+  "private": "true",
+  "scripts": {
+    "repro": "node --import tsx src/run.ts",
+    "build": "tsc -b",
+    "clean": "rm -fr dist tsconfig.tsbuildinfo"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "prettier": "^3.6.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@aztec/accounts": "0.87.9",
+    "@aztec/aztec.js": "0.87.9",
+    "@aztec/constants": "0.87.9",
+    "@aztec/ethereum": "0.87.9",
+    "@aztec/foundation": "0.87.9",
+    "@aztec/l1-artifacts": "0.87.9",
+    "@aztec/noir-contracts.js": "0.87.9",
+    "@aztec/pxe": "0.87.9",
+    "@aztec/stdlib": "0.87.9",
+    "ethers": "^6.14.4",
+    "viem": "2.31.4"
+  }
+}
